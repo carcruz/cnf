@@ -1,7 +1,7 @@
 profesor: Alvaro Cordero
 clase: proyecto_1
 semana: 1
-
+fecha: 11-5-2020
 ---
 
 ### Presentación del curso
