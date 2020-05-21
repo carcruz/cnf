@@ -1,0 +1,82 @@
+
+/* ayudantes */
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+/* generales */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-call-to-action {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffb142;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* header y nav */
+#header-principal {
+  background: #333;
+  position: relative;
+}
+
+#header-principal nav{
+  position: relative;
+}
+
+#header-principal nav a {
+  color: #e6e6e6;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#header-principal nav a.active {
+  color: #f3f3f3;
+  background: #000;
+}
+
+/* intro banner */
+#sct-banner {
+  padding: 20px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+#sct-banner .banner{
+  text-align: center;
+  height: 100%;
+  background-image: url("../imgs/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* info section */
+#sct-intro  {
+  text-align: center;
+}
+#sct-intro  h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sct-intro  p{
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+#sct-intro  button{
+  margin-top: 10px;
+}

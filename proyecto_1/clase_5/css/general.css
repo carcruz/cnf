@@ -1,0 +1,43 @@
+#header-principal {
+  background: #84817a;
+}
+
+#header-principal nav {
+  padding: 20px;
+}
+
+#header-principal nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* estilos seccion banner */
+#sct-banner {
+  background-image: url("../imgs/banner.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+#sct-banner h1 {
+  color: #000;
+  font-size: 48px;
+}
+
+/* estilos seccion info */
+
+.concepto {
+  color:#33d9b2;
+  font-weight: bold;
+}
+
+#sct-info h2 {
+  font-size: 28px;
+}
+
+#sct-info p{
+  margin-bottom: 20px;
+  line-height: 22px;
+
+}

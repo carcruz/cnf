@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Costa Rica</title>
+    <!-- Referencia a archivos CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!--  Referencia a archivos CSS -->
+    <link rel="stylesheet" href="css/general.css" />
   </head>
   <body>
-    <header>
+    <header id="header-principal">
       <nav>
         <a href="/index.html">Home</a>
         <a href="#states">States</a>
@@ -13,19 +17,28 @@
       </nav>
     </header>
 
-    <h1>Costa Rica</h1>
     <main>
+      <section id="sct-banner">
+        <h1>Costa Rica</h1>
+      </section>
+
+      <section id="sct-info">
+
+        <h2>Informacion general</h2>
+     
       <p>
         Costa Rica (/ˌkɒstə ˈriːkə/, US: /ˌkoʊstə/ (About this soundlisten);
         Spanish: [ˈkosta ˈrika]; literally "Rich Coast"), officially the
         Republic of Costa Rica (Spanish: República de Costa Rica), is a country
-        in Central America, bordered by Nicaragua to the north, the Caribbean
-        Sea to the northeast, Panama to the southeast, the Pacific Ocean to the
-        southwest, and Ecuador to the south of Cocos Island. It has a population
-        of around 5 million[4][5] in a land area of 51,060 square kilometers
-        (19,714 square miles). An estimated 333,980 people live in the capital
-        and largest city, San José, with around 2 million people in the
-        surrounding metropolitan area.[9]
+        in <a class="concepto" href="#">Central America</a>, bordered by
+        <a class="concepto" href="#">Nicaragua</a> to the north, the
+        <a class="concepto" href="#"> Caribbean Sea</a> to the northeast,
+        <a class="concepto" href="#">Panama</a> to the southeast, the Pacific
+        Ocean to the southwest, and Ecuador to the south of Cocos Island. It has
+        a population of around 5 million[4][5] in a land area of 51,060 square
+        kilometers (19,714 square miles). An estimated 333,980 people live in
+        the capital and largest city, San José, with around 2 million people in
+        the surrounding metropolitan area.[9]
       </p>
       <p>
         The sovereign state is a unitary presidential constitutional republic.
@@ -49,6 +62,7 @@
         1949, becoming one of only a few sovereign nations without a standing
         army.
       </p>
+    </section>
 
       <section id="states">
         <h2>states</h2>
@@ -62,7 +76,6 @@
           <li>Puntarenas</li>
         </ul>
       </section>
-
     </main>
   </body>
 </html>
