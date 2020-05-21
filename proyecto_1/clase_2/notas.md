@@ -1,6 +1,7 @@
 profesor: Pablo Monestel
 clase: proyecto_1
 semana: 1
+fecha: 13-5-2020
 ---
 
 ### Presentacion de la parte técnica del curso
