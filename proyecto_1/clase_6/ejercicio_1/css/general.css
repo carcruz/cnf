@@ -1,0 +1,47 @@
+/* generales */
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+}
+
+.card {
+  border: 1px solid #6e6e6e;
+  width: 300px;
+}
+
+.card .card-title {
+  border-bottom: 1px solid #6e6e6e;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card .card-body {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.card .card-user {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto 20px auto;
+  border-radius: 75px;
+  background-image: url("../imgs/user.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card .card-info {
+  text-align: center;
+}
+
+.card .card-info p{
+  margin-bottom: 15px;
+}
+
+.card .card-btn {
+  border: solid 1px #6e6e6e;
+  padding: 10px 15px;
+  font-weight: 700;
+  background: #ffb142
+}
