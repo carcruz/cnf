@@ -38,7 +38,7 @@ Todo elemento de html se compone de un conjunto de cajas:
 
 
 ### Ejercicio #1
-Hacer un card
-![Ejercicio #1](assets/ejercicio_1.png)
-
+Hacer un card que sea igual al siguiente:
+<!-- ![Ejercicio #1](assets/ejercicio_1.png) -->
+<img src="assets/ejercicio_1.png" width="200" >
 
