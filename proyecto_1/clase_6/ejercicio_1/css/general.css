@@ -4,6 +4,7 @@ body {
   padding: 40px;
 }
 
+/* card */
 .card {
   border: 1px solid #6e6e6e;
   width: 300px;
@@ -21,7 +22,7 @@ body {
   text-align: center;
 }
 
-.card .card-user {
+.card .card-body .card-user {
   height: 150px;
   width: 150px;
   margin: 0 auto 20px auto;
@@ -31,17 +32,17 @@ body {
   background-position: center;
 }
 
-.card .card-info {
+.card .card-body .card-info {
   text-align: center;
 }
 
-.card .card-info p{
+.card .card-body .card-info p {
   margin-bottom: 15px;
 }
 
-.card .card-btn {
+.card .card-body .card-btn {
   border: solid 1px #6e6e6e;
   padding: 10px 15px;
   font-weight: 700;
-  background: #ffb142
+  background: #ffb142;
 }
