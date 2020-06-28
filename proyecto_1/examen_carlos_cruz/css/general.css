@@ -1,0 +1,360 @@
+/* variables para los colores */
+:root {
+  --green: #7bc142;
+  --green-dark: #2b6431;
+  --yellow: #b0963a;
+  --blue: #1d2731;
+  --blue-dark: #111b24;
+  --white: #fff;
+}
+
+body {
+  /* estilos globales */
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: var(--white);
+}
+
+/* --- COMPONENTES GENERALES --- */
+/* TITULOS */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTONS */
+.btn {
+  display: block;
+  background-color: var(--yellow);
+  color: var(--white);
+  font-size: 24px;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 1px;
+}
+
+/* --- Secciones --- */
+/* HEADER */
+header img.logo {
+  position: absolute;
+  left: 15px;
+  width: 200px;
+  top: 0;
+  z-index: 100;
+}
+
+header img.logo:hover {
+  left: 100px;
+}
+
+header nav {
+  background-color: var(--green-dark);
+  color: var(--white);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  padding-left: 230px;
+  z-index: 200;
+}
+
+header nav .nav-item {
+  background-color: var(--green-dark);
+  margin-right: 12px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+header nav .nav-item .fa {
+  font-size: 16px;
+}
+
+header nav .right-content {
+  display: flex;
+  align-items: center;
+}
+
+header nav .right-content .divider {
+  width: 1px;
+  height: 100%;
+  background-color: var(--white);
+  display: inline-block;
+  margin-right: 12px;
+}
+
+/* BANNER */
+#banner {
+  width: 100%;
+  position: relative;
+}
+
+#banner .logo-esencial {
+  position: absolute;
+  z-index: 100;
+  bottom: 10px;
+  right: 20px;
+  width: 150px;
+}
+
+#banner #banner-slider {
+  width: 100%;
+  height: 800px;
+}
+
+#banner .slider-control {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 100;
+  color: var(--white);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#banner .slider-control.left {
+  left: 30px;
+}
+
+#banner .slider-control.right {
+  right: 30px;
+}
+
+#banner .banner-item {
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+}
+
+#banner .banner-item.banner-1 {
+  background-image: url("../img/banner1.jpg");
+}
+
+#banner .banner-item.banner-2 {
+  background-image: url("../img/banner2.jpg");
+}
+
+#banner .banner-item.banner-3 {
+  background-image: url("../img/banner3.jpg");
+}
+
+/* PROMO SECTION */
+#sct-promos {
+  width: 100%;
+  display: flex;
+  margin-bottom: 45px;
+}
+
+#sct-promos .promo {
+  width: 33.33%;
+  background-size: cover;
+  background-position: center;
+  height: 230px;
+}
+
+#sct-promos .promo-1 {
+  background-image: url("../img/recetas-1024x460.jpg");
+}
+
+#sct-promos .promo-2 {
+  background-image: url("../img/callcenter-1024x460.jpg");
+}
+
+#sct-promos .promo-3 {
+  background-image: url("../img/combos-1024x460.jpg");
+}
+
+/* PRODUCTO SECTION */
+#sct-productos {
+  margin-bottom: 60px;
+}
+
+#sct-productos h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 45px;
+  color: var(--yellow);
+}
+
+#sct-productos .btn {
+  margin: 0 auto 30px;
+}
+
+#sct-productos .lista-productos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sct-productos .lista-productos .producto {
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 15px 30px;
+  cursor: pointer;
+}
+
+#sct-productos .lista-productos .producto-cerdo {
+  background-image: url("../img/cerdo.jpg");
+}
+
+#sct-productos .lista-productos .producto-pescado {
+  background-image: url("../img/pescados.jpg");
+}
+
+#sct-productos .lista-productos .producto-res {
+  background-image: url("../img/res.jpg");
+}
+
+#sct-productos .lista-productos .producto-pollo {
+  background-image: url("../img/pollo.jpg");
+}
+
+#sct-productos .lista-productos .producto-embutidos {
+  background-image: url("../img/embutidos.jpg");
+}
+
+#sct-productos .lista-productos .producto-lacteos {
+  background-image: url("../img/lacteos.jpg");
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--blue-dark);
+  padding-bottom: 30px;
+  position: relative;
+}
+
+footer .contacto {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/bgfooter-1024x257.jpg");
+}
+
+footer .contacto h3 {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+footer .contacto p {
+  text-align: center;
+  color: var(--white);
+  line-height: 2;
+  font-size: 20px;
+}
+
+footer .contacto p {
+  text-align: center;
+  color: var(--white);
+  line-height: 2;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer .contacto .search-input .icon {
+  float: left;
+  color: var(--white);
+  background-color: var(--green);
+  height: 16px;
+  padding: 8px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+footer .contacto .search-input input {
+  float: left;
+  height: 30px;
+  width: 500px;
+  border: none;
+  padding-left: 10px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+footer .payments {
+  background-color: var(--blue-dark);
+  display: flex;
+  justify-content: center;
+}
+
+footer .payments img {
+  height: 35px;
+  margin: 20px 15px;
+}
+
+footer .info {
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer p {
+  margin-top: 20px;
+}
+
+footer .side-by-side {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer .side-by-side p:nth-child(1),
+footer .side-by-side img:nth-child(1) {
+  margin-right: 20px;
+}
+
+footer .social-media {
+  width: 40px;
+}
+
+footer nav {
+  padding: 30px;
+}
+
+footer nav .nav-item {
+  padding: 0 20px;
+  border-right: 1px solid var(--green);
+}
+
+footer nav .nav-item:last-child {
+  border: none;
+}
+
+footer .go-up {
+  position: absolute;
+  right: 20px;
+  bottom: 24px;
+  color: var(--green);
+  font-size: 35px;
+}
