@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Semana 8 practica</title>
+    <!-- Link de FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/d363d1b466.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Referencia del font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Referencia a archivos CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <!--  Referencia a archivos CSS -->
+  </head>
+  <body>
+    <table id="tbl-productos">
+      <thead>
+        <tr>
+          <th>_id</th>
+          <th>nombre</th>
+          <th>código</th>
+          <th>precio</th>
+          <th>descripción</th>
+          <th>estado</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./productos_servicio.js"></script>
+    <script src="./listar_producto_ctrl.js"></script>
+  </body>
+</html>
